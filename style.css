@@ -10,6 +10,12 @@ p {
   flex-direction: column;
   align-items: center;
 }
+#but:hover{
+  cursor: pointer;
+  transition: 0.5s ease;
+  transform: scale(1.2);
+  background-color: aqua;
+}
 .row {
   display: flex;
 }
